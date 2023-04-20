@@ -10,9 +10,12 @@
     <h1>Cadastro de usuário</h1>
     <form>
         <h3>Digite os dados abaixo para criar seu cadastro:</h3>
-        <input type="text" placeholder="Nome completo" /> <br />
-        <input type="email" placeholder="Digite seu email" /> <br />
-        <input type="password" placeholder="Crie uma Senha"> <br />
+        <label for="nome">Nome completo: </label>
+        <input id="nome" type="text" /> <br />
+        <label for="email">Digite seu email: </label>
+        <input id="email" type="email" /> <br />
+        <label for="senha">Crie uma Senha: </label>
+        <input type="password" /> <br />
         <button type="submit">Cadastrar</button>
         <button type="reset">Limpar</button>
     </form>
